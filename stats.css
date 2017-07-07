@@ -1,0 +1,63 @@
+html {
+	background-color: #B055ED;
+}
+
+body {
+	font-size: 16px;
+	margin: 10px;
+	background-color: white;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.top-nav {
+	width: 100%;
+	padding: 6px 0;
+}
+
+.top-nav ul {
+	padding-left: 20px;
+}
+
+.top-nav li {
+	margin-right: 16px;
+	display: inline-block;
+}
+
+.top-nav a {
+	text-decoration: none;
+    padding: 6px;
+    border-bottom: 1px solid #B055ED;
+    box-shadow: 0px 1px #B055ED;
+    color: #B055ED;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.top-nav a:hover {
+	text-decoration: none;
+    border-bottom: 2px solid #666;
+    box-shadow: 0px 0px #666;
+    color: #666;
+    transition: border-bottom .2s, background-color .2s, box-shadow .2s, color .2s;
+}
+
+.highcharts-title tspan {
+	fill: #B055ED;
+	font-size: 1.6em;
+}
+
+.img-responsive {
+	width:100%;
+	height:auto;
+}
+
+.home-h1 {
+	position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    font-size: 5em;
+    color: #eb74f2;
+    font-weight: 100;
+}
