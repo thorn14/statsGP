@@ -21,8 +21,8 @@ var myChart = Highcharts.chart('doviziosoComparison', {
   series: [  
     {
       name: "DOVIZIOSO 2017",
-      data: [20,20,30,41,54,79,104,115,123,133,158],
-      legendIndex: 158
+      data: [20,20,30,41,54,79,104,115,123,133,158,183,199,208,233],
+      legendIndex: 233
     },
     {
       name: "DOVIZIOSO 2016",
