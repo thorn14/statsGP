@@ -20,11 +20,16 @@ var myChart = Highcharts.chart('lorenzoComparison', {
   },
   series: [  
     {
-      name: "LORENZO 2017",
-      data: [5,5,12,28,38,46,59,60,65],
-      legendIndex: 65
+      name: "LORENZO 2018",
+      data: [0, 1, 5, ],
+      legendIndex: 6
     },
-  {
+    {
+      name: "LORENZO 2017",
+      data: [5,5,12,28,38,46,59,60,65,66,79,90,90,106,116,117,137,137],
+      legendIndex: 137
+    },
+    {
       name: "LORENZO 2016",
       data: [25, 25, 45, 65, 90, 115, 115, 115, 122, 138, 138, 146, 162, 182, 182, 192, 208, 233],
       legendIndex: 233

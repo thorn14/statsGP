@@ -31,8 +31,8 @@ var myChart = Highcharts.chart('seasonResults2017', {
     },
     {
       name: "LORENZO Jorge",
-      data: [5,5,12,28,38,46,59,60,65,66,79,90,90,106,116],
-      legendIndex: 116
+      data: [5,5,12,28,38,46,59,60,65,66,79,90,90,106,116,117,137,137],
+      legendIndex: 137
     },
     {
       name: "PEDROSA Dani",
