@@ -21,13 +21,13 @@ var myChart = Highcharts.chart('seasonResults2017', {
   series: [  
     {
       name: "MARQUEZ Marc",
-      data: [13,13,38,58,58,68,88,104,129,154,174,174,199,224,244],
-      legendIndex: 244
+      data: [13,13,38,58,58,68,88,104,129,154,174,174,199,224,244,269,282,298],
+      legendIndex: 298
     },
     {
       name: "ROSSI Valentino",
-      data: [16,36,56,62,62,75,83,108,119,132,141,157,157,168,168],
-      legendIndex: 168
+      data: [16,36,56,62,62,75,83,108,119,132,141,157,157,168,168,188,197,208],
+      legendIndex: 208
     },
     {
       name: "LORENZO Jorge",
@@ -36,23 +36,23 @@ var myChart = Highcharts.chart('seasonResults2017', {
     },
     {
       name: "PEDROSA Dani",
-      data: [11,11,27,52,68,68,84,87,103,123,139,148,150,170,170],
-      legendIndex: 170
+      data: [11,11,27,52,68,68,84,87,103,123,139,148,150,170,170,174,185,210],
+      legendIndex: 210
     },
     {
       name: "VIÑALES Maverick",
-      data: [25,50,50,60,85,105,111,111,124,140,150,170,183,196,203],
-      legendIndex: 203
+      data: [25,50,50,60,85,105,111,111,124,140,150,170,183,196,203,219,226,230],
+      legendIndex: 230
     },
     {
       name: "CRUTCHLOW Cal",
-      data: [0,16,29,29,40,40,45,58,64,75,76],
-      legendIndex: 76
+      data: [0,16,29,29,40,40,45,58,64,75,76,89,92,92,92,103,104,112],
+      legendIndex: 112
     },
     {
       name: "DOVIZIOSO Andrea",
-      data: [20,20,30,41,54,79,104,115,123,133,158,183,199,208,233],
-      legendIndex: 233
+      data: [20,20,30,41,54,79,104,115,123,133,158,183,199,208,233,236,261,261],
+      legendIndex: 261
     },
     {
       name: "IANNONE Andrea",
