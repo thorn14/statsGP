@@ -15,7 +15,11 @@ var myChart = Highcharts.chart('seasonResults2016', {
       layout: 'vertical',
       align: 'right',
       verticalAlign: 'middle',
-      reversed: true
+      reversed: true,
+      labelFormatter: function () {
+        var p = this.name + ' - ' + this.options.legendIndex + ' points';
+          return p;
+      },
   },
   series: [  
     {

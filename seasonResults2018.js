@@ -16,9 +16,13 @@ var myChart = Highcharts.chart('seasonResults2018', {
       layout: 'vertical',
       align: 'right',
       verticalAlign: 'middle',
-      reversed: true
+      reversed: true,
+      labelFormatter: function () {
+        var p = this.name + ' - ' + this.options.legendIndex + ' points';
+          return p;
+      },
   },
-  series: [  
+  series: [
     {
       name: "MARQUEZ Marc",
       data: [20, 20, 45, ],
