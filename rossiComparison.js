@@ -1,7 +1,7 @@
-var myChart = Highcharts.chart('marquezComparison', {
+var myChart = Highcharts.chart('rossiComparison', {
 
   title: {
-      text: 'MARQUEZ Championship Season History'
+      text: 'ROSSI Championship Season History'
   },
   xAxis: {
       categories: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
@@ -22,37 +22,37 @@ var myChart = Highcharts.chart('marquezComparison', {
           return p;
       },
   },
-  series: [ 
+  series: [
     {
       name: "MAX",
       color: '#eeeeee',
       data: [25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450],
       legendIndex: 450
-    }, 
+    },   
     {
       name: "2018",
-      data: [20,20,45,70,95],
-      legendIndex: 95
+      data: [16,16,29,40,56],
+      legendIndex: 56
     },
     {
       name: "2017",
-      data: [13,13,38,58,58,68,88,104,129,154,174,174,199,224,244,269,282,298],
-      legendIndex: 298
+      data: [16,36,56,62,62,75,83,108,119,132,141,157,157,168,168,188,197,208],
+      legendIndex: 208
     },
     {
       name: "2016",
-      data: [16,41,66,82,85,105,125,145,170,181,197,210,223,248,273,273,278,298],
-      legendIndex:298
+      data: [13, 33, 33, 58, 78, 78, 103, 119, 127, 140, 160, 176, 196, 212, 212, 232, 252, 265],
+      legendIndex: 265
     },
     {
       name: "2015",
-      data: [11,36,36,56,69,69,69,89,114,139,159,159,184,184,197,222,222,242],
-      legendIndex: 242
+      data: [25, 41, 66, 82, 102, 118, 138, 163, 179, 195, 211, 236, 247, 263, 283, 296, 312, 325],
+      legendIndex: 325
     },
     {
       name: "2014",
-      data: [25,50,75,100,125,150,175,200,225,250,263,288,289,292,312,312,337,362],
-      legendIndex: 362
+      data: [13,33,53,69,89,100,113,129,145,161,186,186,202,227,247,267],
+      legendIndex: 267
     },
-  ],
+  ]
 });

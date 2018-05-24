@@ -31,8 +31,8 @@ var myChart = Highcharts.chart('lorenzoComparison', {
     },   
     {
       name: "2018",
-      data: [0, 1, 5, ],
-      legendIndex: 6
+      data: [0,1,6,6,16],
+      legendIndex: 16
     },
     {
       name: "2017",

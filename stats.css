@@ -61,3 +61,11 @@ body {
     color: #eb74f2;
     font-weight: 100;
 }
+
+.top-nav a.current {
+	text-decoration: none;
+    border-bottom: 2px solid #666;
+    box-shadow: 0px 0px #666;
+    color: #666;
+    transition: border-bottom .2s, background-color .2s, box-shadow .2s, color .2s;
+}
