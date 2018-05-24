@@ -60,73 +60,108 @@ var myChart = Highcharts.chart('seasonResults2017', {
     },
     {
       name: "IANNONE Andrea",
-      data: [0,0,9,9,15,21,21,28,28,28,33],
-      legendIndex: 33
+      data: [0,0,9,9,15,21,21,28,28,28,33,33,33,37, 50, 60, 60, 70],
+      legendIndex: 70
     },
     {
       name: "ESPARGARO Pol",
-      data: [0,2,2,2,6,6,6,11,14,21,21],
-      legendIndex: 21
+      data: [0,2,2,2,6,6,6,11,14,21,21,26, 31, 37, 42, 49, 55, 55],
+      legendIndex: 55
     },
     {
       name: "BARBERA Hector",
-      data: [3,6,8,12,12,14,21,21,21,21,21],
-      legendIndex: 21
+      data: [3, 6, 8, 12, 12, 14, 21, 21, 21, 21, 21, 23, 23, 23, 25, 25, 27, 28],
+      legendIndex: 28
     },
     {
       name: "ZARCO Johan",
-      data: [0,11,22,35,55,64,75,77,84,88,99],
-      legendIndex: 99
+      data: [0, 11, 22, 35, 55, 64, 75, 77, 84, 88, 99, 109, 110, 117, 125, 138, 154, 174],
+      legendIndex: 174
     },
     {
       name: "ESPARGARO Aleix",
-      data: [10,10,10,17,17,17,17,23,32,40,43],
-      legendIndex: 43
+      data: [10, 10, 10, 17, 17, 17, 17, 23, 32, 40, 43, 43, 43, 53, 62, 62, 62, 62],
+      legendIndex: 62
     },
     {
       name: "REDDING Scott",
-      data: [9,17,21,26,26,30,33,33,33,33,37],
-      legendIndex: 37
+      data: [9, 17, 21, 26, 26, 30, 33, 33, 33, 33, 37, 45, 54, 56, 56, 61, 64, 64],
+      legendIndex: 64
     },
     {
       name: "BAUTISTA Alvaro",
-      data: [0,13,14,14,14,25,34,34,44,44,52],
-      legendIndex: 52
-    },
-    {
-      name: "PETRUCCI Danilo",
-      data: [0,9,17,26,26,42,42,62,66,75,75],
+      data: [0, 13, 14, 14, 14, 25, 34, 34, 44, 44, 52, 58, 62, 70, 70, 70, 75, 75],
       legendIndex: 75
     },
     {
+      name: "PETRUCCI Danilo",
+      data: [0, 9, 17, 26, 26, 42, 42, 62, 66, 75, 75, 75, 95, 95, 111, 111, 121, 124],
+      legendIndex: 124
+    },
+    {
       name: "MILLER Jack",
-      data: [8,15,21,21,29,30,30,40,41,43,43],
-      legendIndex: 43
+      data: [8, 15, 21, 21, 29, 30, 30, 40, 41, 43, 43, 43, 53, 56, 56, 65, 73, 82],
+      legendIndex: 82
     },
     {
       name: "SMITH Bradley",
-      data: [0,1,1,3,6,6,6,6,8,8,8],
-      legendIndex: 8
+      data: [0, 1, 1, 3, 6, 6, 6, 6, 8, 8, 8, 8, 14, 14, 14, 20, 24, 29],
+      legendIndex: 29
     },
     {
       name: "PIRRO Michele",
-      data: [0,0,0,0,0,7,7,7,7,7,7],
-      legendIndex: 7
+      data: [0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 18, 18, 18, 18, 18, 25],
+      legendIndex: 25
     },
     {
       name: "RABAT Tito",
-      data: [1,5,8,8,13,18,19,23,23,23,23],
-      legendIndex: 23
+      data: [1, 5, 8, 8, 13, 18, 19, 23, 23, 23, 23, 27, 27, 28, 29, 29, 29, 35],
+      legendIndex: 35
     },
     {
       name: "BAZ Loris",
-      data: [4,9,9,12,19,19,23,31,31,31,38],
-      legendIndex: 38
+      data: [4, 9, 9, 12, 19, 19, 23, 31, 31, 31, 38, 39, 39, 39, 45, 45, 45, 45],
+      legendIndex: 45
+    },
+    {
+      name: "GUINTOLI Sylvain",
+      data: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      legendIndex: 1
+    },
+    {
+      name: "NAKASUGA Katsuyuki",
+      data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4],
+      legendIndex: 4
+    },
+    {
+      name: "LOWES Sam",
+      data: [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5],
+      legendIndex: 5
+    },
+    {
+      name: "VAN DER MARK Michael",
+      data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      legendIndex: 0
+    },
+    {
+      name: "KALLIO Mika",
+      data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 11, 11, 11, 11, 11],
+      legendIndex: 11
+    },
+    {
+      name: "ABRAHAM Karel",
+      data: [2, 8, 8, 9, 9, 9, 11, 20, 20, 23, 25, 28, 28, 28, 28, 30, 30, 32],
+      legendIndex: 32
+    },
+    {
+      name: "RINS Alex",
+      data: [7, 7, 7, 7, 7, 7, 7, 7, 7, 12, 12, 19, 27, 27, 38, 46, 46, 59],
+      legendIndex: 59
     },
     {
       name: "FOLGER Jonas",
-      data: [6,16,21,29,38,41,51,51,71,77,77],
-      legendIndex: 77
+      data: [6, 16, 21, 29, 38, 41, 51, 51, 71, 77, 77, 77, 84, 84, 84, 84, 84, 84],
+      legendIndex: 84
     }
   ]
 });
