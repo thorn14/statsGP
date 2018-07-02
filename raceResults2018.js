@@ -20,28 +20,28 @@ var myChart = Highcharts.chart('raceResults2018', {
   series: [  
     {
       name: "MARQUEZ Marc",
-      data: [20, 0, 25, ],
-      legendIndex: 45
+      data: [20, 0, 25, 25, 25, 0, 20, 25],
+      legendIndex: 140
     },
     {
       name: "ROSSI Valentino",
-      data: [16, 0, 13, ],
-      legendIndex: 29
+      data: [16, 0, 13, 11, 16, 16, 16, 11],
+      legendIndex: 99
     },
     {
       name: "LORENZO Jorge",
-      data: [0, 1, 5, ],
-      legendIndex: 6
+      data: [0, 1, 5, 0, 10, 25, 25, 9],
+      legendIndex: 75
     },
     {
       name: "PEDROSA Dani",
-      data: [9, 0, 9, ],
-      legendIndex: 18
+      data: [9, 0, 9, 0, 11, 0, 11, 1],
+      legendIndex: 41
     },
     {
       name: "VIÑALES Maverick",
-      data: [10, 11, 20, ],
-      legendIndex: 41
+      data: [10, 11, 20, 9, 9, 8, 10, 16],
+      legendIndex: 93
     },
     {
       name: "CRUTCHLOW Cal",

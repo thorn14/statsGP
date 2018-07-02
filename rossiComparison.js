@@ -31,8 +31,8 @@ var myChart = Highcharts.chart('rossiComparison', {
     },   
     {
       name: "2018",
-      data: [16,16,29,40,56],
-      legendIndex: 56
+      data: [16, 16, 29, 40, 56, 72, 88, 99],
+      legendIndex: 99
     },
     {
       name: "2017",

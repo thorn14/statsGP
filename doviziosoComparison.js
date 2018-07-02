@@ -31,8 +31,8 @@ var myChart = Highcharts.chart('doviziosoComparison', {
     },
     {
       name: "2018",
-      data: [25, 35, 46, 46, 46],
-      legendIndex: 46
+      data: [25, 35, 46, 46, 46, 66, 66, 79],
+      legendIndex: 79
     },   
     {
       name: "2017",

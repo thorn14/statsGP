@@ -31,8 +31,8 @@ var myChart = Highcharts.chart('marquezComparison', {
     }, 
     {
       name: "2018",
-      data: [20,20,45,70,95],
-      legendIndex: 95
+      data: [20, 20, 45, 70, 95, 95, 115, 140],
+      legendIndex: 140
     },
     {
       name: "2017",
